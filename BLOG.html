@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLOG - IT111 Blog</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #191825 no-repeat center center;
+            background-size: cover;
+            background-blend-mode: overlay;
+            margin: 0;
+            padding: 0;
+            color: #FFCCEA;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: #0B8494;
+            padding: 1em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            box-shadow: 0 0 10px #00ffff;
+        }
+        .logo {
+            height: 50px;
+            width: 50px;
+            box-shadow: 0 0 5px #00ffff;
+            border-radius: 50%;
+            transition: box-shadow 0.3s ease;
+        }
+        .logo:hover {
+            box-shadow: 0 0 10px #ff00ff;
+        }
+        nav {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 1em;
+        }
+        nav a {
+            color: #00ffff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff00ff;
+            text-shadow: 0 0 20px #ff00ff;
+        }
+        .content {
+            padding: 2em;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            opacity: 0;
+            animation: fadeIn 2s forwards;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            background: #E384FF;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 0.5em;
+            text-align: center;
+        }
+        .highlights ul {
+            max-width: 60%;
+            margin: 0 auto;
+            color: #b3b3b3;
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        .highlights li {
+            margin: 1em 0;
+            color: #219B9D;
+        }
+        .center-image {
+            display: block;
+            margin: 1em auto;
+            max-width: 100%;
+            height: auto;
+        }
+        .aligned-image {
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 0 10px #00ffff;
+            transition: transform 0.3s ease;
+        }
+        .aligned-image:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 15px #ff00ff;
+        }
+       footer {
+			background-color: #FFAAAA;
+			text-align: center;
+			padding: 0.5em; /* Reduced padding */
+			position: fixed;
+			width: 100%;
+			bottom: 0;
+			box-shadow: 0 0 10px #00ffff;
+			color: #643843;
+			font-size: 0.9em; /* Slightly smaller font size */
+		}
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="home page.html"><img src="wow logo.png" alt="Blog Logo" class="logo"></a>
+        <nav>
+            <a href="home page.html">Home</a>
+            <a href="BLOG.html">IT111 Blog</a>
+            <a href="flex page.html">Flex Page</a>
+        </nav>
+    </header>
+    <div class="content">
+        <h1>INTRODUCTION TO COMPUTING LESSONS</h1>
+        <div class="highlights">
+            <ul>
+                <li><strong>1. Introduction to Computing</strong></li>
+                <li>Computing uses computers to solve problems and complete tasks, from calculations to advanced data processing. It started with manual calculations, evolved to mechanical devices, and now drives modern technology.
+
+					Computing has an impact on education, business, marketing, healthcare, and communication. It helps enhance learning, streamline business processes, allow for digital marketing, improve medical diagnostics, and change the way people communicate with tools such as email and video calls. Computing is fundamental to modern life, speeding up tasks and making them easier while driving innovation.</li>
+                <li><strong>2. Professions & Careers in Computing</strong></li>
+                <li>This lesson presents careers in computing such as programming, system management, networking, research, web development, graphics, and training. The roles span from software engineers and network administrators to the AI programmers and web designers. Professionals manage data, develop software, maintain systems, and support users. Computing provides diverse paths for careers necessary in modern industries.</li>
+                <li><strong>3. Information Processing Cycle</strong></li>
+                <li>Information processing cycle : the process involves input gathering, processing by CPU to convert into information, storage, for possible use, and out is its output delivered, preferably on a monitor, screen, or printed device. Effective information is supposed to be relevant, precise, up to date and full in details, all attributes essential to the making of judgments and decisions.
+
+</li>
+                <li><strong>4. Introduction to Computer System</strong></li>
+                <li>The lesson discusses the four main parts of a computer system: hardware (the physical devices), software (programs), people ware (users), and data ware (raw data processed into meaningful information). Hardware includes input/output devices, storage, and memory. Software consists of system programs and applications. Data becomes valuable when processed into information for decision-making.</li>
+                <div style="display: flex; justify-content: center; gap: 1em; margin: 1em 0;">
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Coby Blyze M. Gonzales</p>
+    </footer>
+</body>
+</html>
